@@ -23,4 +23,4 @@ async def f(ctx):
 async def bruh(ctx):
     await ctx.send("bruh moment certified")
     
-client.run("NzY4NDkzOTgyMDYwNjQyMzA0.X5BRyw.EkfBk2httVV0Kbfyn0oxUKZc5g4")
+client.run(process.env.token)
