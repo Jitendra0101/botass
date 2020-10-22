@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 
 client = commands.Bot(command_prefix="")
@@ -23,4 +24,4 @@ async def f(ctx):
 async def bruh(ctx):
     await ctx.send("bruh moment certified")
     
-client.run(process.env.token)
+client.run(os.environ['token'])
