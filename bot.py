@@ -6,15 +6,15 @@ client = commands.Bot(command_prefix="")
 
 @client.event
 async def on_ready():
-    print("bot is up for shit")
+    print("bot is online")
 
 @client.command()
 async def hello(ctx):
     await ctx.send("hey there punk")
 
 @client.command()
-async def stfu(ctx):
-    await ctx.send("no you shut the fuck up whore")
+async def love(ctx):
+    await ctx.send("<3 <3 <3")
 
 @client.command()
 async def f(ctx):
